@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+#go-list {
+	font-size:14px;
+}
+
+.list-item {
+	border-bottom:1px dotted #666;
+	height:120px;
+	padding-top:20px;
+}
+
+.list-item img {
+	width:100px;
+	height:100px;
+	float:left;
+	margin:0 10px 0 0;
+	border:1px solid #333;
+}
+
+.list-item-info {
+	float:left;
+	width:240px;
+	position:relative;
+}
+
+.list-item-num {
+	float:left;
+	width:160px;
+	text-align:right;
+}
+
+.list-item-price {
+	float:right;
+	width:180px;
+	text-align:right;
+}
+
+.list-item-store {
+	position:absolute;
+	top:75px;
+}
+
+#hot-shop {
+	margin-top:20px;
+	color:#FFFFFF;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#hot-shop-wrap {
+	background-color:#587D37;
+	height:24px;
+}
+
+.hot-shop {
+	margin-top:10px;
+	position:relative;
+}
+
+.hot-shop img {
+	border:4px double #666;
+	padding:15px 20px 40px 20px;
+	width:172px;
+	height:172px;
+}
+
+.hot-shop-c {
+	position:absolute;
+	top:190px;
+	text-align:center;
+	padding:3px;
+	color:#000;
+	width:210px;
+}

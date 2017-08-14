@@ -1,0 +1,346 @@
+@charset "utf-8";
+/* CSS Document */
+
+#twitter-top {
+	background-color:#DEFFDE;
+}
+
+#twitter-today {
+	background-image:url(../image/t-today.png);
+	background-repeat:no-repeat;
+	height:320px;
+	position:relative;
+}
+
+#twitter-date {
+	position:absolute;
+	width:360px;
+	height:24px;
+	background-color:#587D37;
+	color:#FFFFFF;
+	top:17px;
+	left:279px;
+	font-size:16px;
+	font-weight:bold;
+	text-align:right;
+}
+
+#twitter-login {
+	background-image:url(../image/twitter-login.png);
+	background-repeat:no-repeat;
+	height:216px;
+	position:relative;
+}
+
+#twitter-top-c {
+	padding-top:40px;
+	padding-left:20px;
+}
+
+#twitter-top-t {
+	padding-left:10px;
+	float:left;
+	width:420px;
+	color:#666;
+}
+
+#twitter-top-m {
+	 border-bottom:1px dashed #999;
+	 padding:5px 0 5px 0;
+	 margin:2px;
+}
+
+#twitter-top-a {
+	 border-bottom:1px dashed #999;
+	 padding:5px 0 5px 0;
+	 margin:2px;
+}
+
+#twitter-top-a a {
+	color:#036803;
+}
+
+#twitter-top-c img {
+	width:160px;
+	height:150px;
+	float:left;
+	border:1px solid #363636;
+	margin-top:20px;
+}
+
+#twitter-top-button img {
+	width:auto;
+	height:auto;
+	border:none;
+	margin-top:12px;
+	margin-left:2px;
+}
+
+.twitter-top-more {
+	width:180px;
+	float:left;
+}
+
+.twitter-top-more-t {
+	padding:0 0 0 7px;
+	float:left;
+}
+
+#twitter-top-more {
+	margin-top:15px;
+}
+
+#twitter-top-more a {
+	color:#036803;
+}
+
+#twitter-top-more img {
+	width:50px;
+	height:50px;
+	padding:0;
+	margin:0;
+}
+
+.twitter-top-more-a {
+	color:#666;
+}
+
+#twitter-top-more-more {
+	position:absolute;
+	top:287px;
+	right:5px;
+}
+
+#twitter-top-more-more a {
+	color:#036803;
+}
+
+#twitter-top-ad {
+	width:294px;
+	text-align:center;
+	padding:23px 0;
+	margin-top:15px;
+	font-size:14px;
+}
+
+#twitter-login .text-input {
+	height:28px;
+	width:180px;
+	border:1px solid #999;
+	background-color:#FFF;
+	color:#333;
+}
+
+#t-login-u {
+	position:absolute;
+	top:55px;
+	left:20px;
+}
+
+#t-login-p {
+	position:absolute;
+	top:97px;
+	left:20px;
+}
+
+#t-login-r {
+	position:absolute;
+	top:60px;
+	right:22px;
+	color:#FFFFFF;
+	vertical-align:top;
+}
+
+#t-login-s {
+	position:absolute;
+	top:98px;
+	right:20px;
+}
+
+#t-login-s input {
+	width:66px;
+	height:30px;
+	border:none;
+	background-image:url(../image/twitter-login-button.png);
+	background-color:transparent;
+	font-weight:bold;
+}
+
+#t-login-f {
+	position:absolute;
+	top:135px;
+	left:21px;
+}
+
+#t-login-f a {
+	color:#FFF;
+}
+
+#t-login-su {
+	position:absolute;
+	top:165px;
+	left:90px;
+}
+
+#twitter-main-ad {
+	padding:25px 0;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:20px;
+	font-size:14px;
+}
+
+#twitter-twitter {
+	background-color:#DEFFDE;
+	height:870px;
+}
+
+.twitter-twitter {
+	margin-left:20px;
+	padding-top:20px;
+}
+
+.twitter-twitter img {
+	width:50px;
+	height:50px;
+	border:1px solid #333;
+}
+
+.twitter-t-img {
+	float:left;
+	padding-top:3px;
+}
+
+.twitter-t-u {
+	text-align:center;
+	padding:2px;
+}
+
+.twitter-t-u a {
+	color:#666;
+}
+
+.twitter-t-t {
+	float:left;
+	width:528px;
+}
+
+.twitter-t-t-wrap {
+	background-image:url(../image/twitter-t-wrap.png);
+	background-repeat:no-repeat;
+	height:3px;
+}
+
+.twitter-t-t-c {
+	padding:10px 9px 5px 49px;
+	background-image:url(../image/twitter-t.png);
+	background-position:top;
+	font-size:14px;
+
+}
+
+.twitter-t-t-bottom {
+	background-image:url(../image/twitter-t-bottom.png);
+	background-repeat:no-repeat;
+	height:22px;
+}
+
+.twitter-t-t-i {
+	border-top:1px dashed #999;
+	margin-top:10px;
+	padding-top:5px;
+	color:#333;
+}
+
+.twitter-t-t-i a {
+	color:#333;
+}
+
+#twitter-right {	
+	height:500px;
+}
+
+#twitter-my {
+	background-image:url(../image/twitter-my.png);
+	background-color:#B3E4E4;
+	height:220px;
+}
+
+#twitter-my textarea {
+	margin-top:60px;
+	margin-left:15px;
+	background:transparent;
+	border:none;
+	height:95px;
+	width:267px;
+	overflow:hidden;
+}
+
+#twitter-my-in {
+	position:relative;
+}
+
+#twitter-submit {
+	border:none;
+	background:transparent;
+	background-image:url(../image/twitter-submit.png);
+	width:60px;
+	height:25px;
+	position:absolute;
+	top:175px;
+	right:9px;
+}
+
+#twitter-star {
+	background-image:url(../image/twitter-star.png);
+	background-repeat:no-repeat;
+	height:100px;
+	background-color:#B3E4E4;
+	margin-top:22px;
+	padding-top:35px;
+}
+
+#twitter-star ul {
+	margin-left:6px;
+}
+
+#twitter-star ul li {
+	float:left;
+	text-align:center;
+	margin:10px;
+}
+
+#twitter-star img {
+	width:50px;
+	height:50px;
+	border:1px solid #333;
+}
+
+#twitter-hot {
+	background-image:url(../image/twitter-hot.png);
+	background-repeat:no-repeat;
+	height:310px;
+	margin-top:23px;
+	padding-top:50px;
+}
+
+.twitter-hot {
+	width:220px;
+	height:55px;
+	border:1px dotted #666;
+	margin:10px auto;
+	padding:10px;
+}
+
+#twitter-hot img {
+	width:55px;
+	height:55px;
+	border:1px solid #333;
+	float:left;
+}
+
+.twitter-hot-c {
+	float:left;
+	padding:3px 0 0 7px;
+	font-size:14px;
+}

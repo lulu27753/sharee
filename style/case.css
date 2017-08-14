@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+
+#case-main {
+	height:600px;
+	background-image:url(../image/case-book.png);
+	background-repeat:no-repeat;
+	background-color:#DEFFDE;
+}
+
+#case-m-l {
+	padding:60px 0 0 100px;
+	width:320px;
+}
+
+.case-h2 {
+	font-size:24px;
+	font-family:"黑体";
+	border-bottom:1px solid #333;
+}
+
+.case-h3 {
+	font-size:14px;
+	font-weight:bold;
+	color:#000;
+	padding:4px 0;
+}
+
+.case-m-c {
+	padding:5px 5px 10px 5px;
+	color:#666;
+	border-bottom:1px #333 dashed;
+}
+
+#case-m-l ul {
+	margin-top:10px;
+}
+
+#case-m-l ul li {
+	border-bottom:1px dotted #999;
+	padding:4px;
+	list-style-image:url(../image/list.png);
+	list-style-position:inside;
+}
+
+#case-m-l ul li a {
+	display:inline;
+	font-size:14px;
+}
+
+#case-m-r {
+	width:320px;
+	padding:60px 0 0 40px;
+}
+
+.case-m-r {
+	margin-top:10px;
+	border-bottom:1px dotted #999;
+	height:90px;
+}
+
+.case-m-r img {
+	float:left;
+	margin-top:2px;
+	width:110px;
+	height:80px;
+	border:1px solid #666;
+}
+
+.case-m-r ul {
+	float:left;
+	margin-left:10px;
+}
+
+.case-m-r ul li {
+	list-style:square;
+	list-style-position:inside;
+}
+
+.case-m-r ul li a {
+	display:inline;
+	padding:1px;
+}
+
+#twitter-my {
+	background-image:url(../image/case-t.png);
+	background-color:#DEFFDE;
+	height:250px;
+}
+
+#twitter-my textarea {
+	margin-top:57px;
+	margin-left:18px;
+	background:transparent;
+	border:none;
+	height:110px;
+	width:423px;
+	overflow:hidden;
+}
+
+#twitter-my-in {
+	position:relative;
+}
+
+#twitter-submit {
+	border:none;
+	background:transparent;
+	background-image:url(../image/twitter-submit.png);
+	width:60px;
+	height:25px;
+	position:absolute;
+	top:190px;
+	right:9px;
+}
+
+#twitter-twitter {
+	background-color:#DEFFDE;
+	height:250px;
+}
+
+.twitter-twitter {
+	margin-left:20px;
+	padding-top:20px;
+}
+
+.twitter-twitter img {
+	width:50px;
+	height:50px;
+	border:1px solid #333;
+}
+
+.twitter-t-img {
+	float:left;
+	padding-top:3px;
+}
+
+.twitter-t-u {
+	text-align:center;
+	padding:2px;
+}
+
+.twitter-t-u a {
+	color:#666;
+}
+
+.twitter-t-t {
+	float:left;
+	width:375px;
+}
+
+.twitter-t-t-wrap {
+	background-image:url(../image/case-t-wrap.png);
+	background-repeat:no-repeat;
+	height:3px;
+}
+
+.twitter-t-t-c {
+	padding:0px 9px 2px 37px;
+	background-image:url(../image/case-t-t.png);
+	background-position:top;
+	font-size:12px;
+
+}
+
+.twitter-t-t-bottom {
+	background-image:url(../image/case-t-bottom.png);
+	background-repeat:no-repeat;
+	height:22px;
+}
+
+.twitter-t-t-i {
+	border-top:1px dashed #999;
+	margin-top:7px;
+	padding-top:3px;
+	color:#333;
+}
+
+.twitter-t-t-i a {
+	color:#333;
+}
+
+#case-tips {
+	margin-top:20px;
+	background-image:url(../image/case-tips.png);
+	background-repeat:no-repeat;
+	height:181px;
+	padding-top:60px;
+}
+
+.case-tips img {
+	float:left;
+	border:1px solid #999;
+}
+
+.case-tips ul {
+	float:left;
+	margin-left:5px;
+}
+
+.case-tips ul li {
+	list-style:inside square;
+	padding:2px;
+}

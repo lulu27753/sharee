@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	border:none;
+	font-size:12px;
+}
+
+a, a:visited {
+	color:#000;
+	text-decoration:none;
+}
+
+.container {
+	width:940px;
+	margin:0 auto;
+	position:relative;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+.clear {
+	clear:both;
+}
+
+#stores {
+	width:610px;
+	margin-top:15px;
+}
+
+.store {
+	float:left;
+	margin:10px 15px;
+}
+
+.store img {
+	border:1px solid #333;
+	width:120px;
+	height:120px;
+}
+
+.store-name {
+	text-align:center;
+	padding:3px;
+}
+
+#pre {
+	font-size:100px;
+	top:115px;
+	position:absolute;
+	color:#333;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#next {
+	font-size:100px;
+	top:115px;
+	right:0px;
+	position:absolute;
+	color:#333;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#next a, #pre a {
+	color:#333;
+}
+
+#pre a:hover {
+	color:#F60;
+}
+
+#next a:hover {
+	color:#F60;
+}
+
+#happiness {
+	background-image:url(../image/mall-bg.png);
+	background-repeat:no-repeat;
+}
+
+#letoff {
+	background-image:url(../image/mall-bg1.png);
+	background-repeat:no-repeat;
+}

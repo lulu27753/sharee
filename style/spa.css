@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+#spa-main {
+	margin-top:20px;
+}
+
+#spa-l {
+}
+
+#spa-c {
+}
+
+#spa-r {
+}
+
+.spa-box {
+	background-image:url(../image/spa-tips.png);
+	background-repeat:no-repeat;
+	padding-top:60px;
+	height:470px;
+	position:relative;
+}
+
+.spa-more {
+	position:absolute;
+	bottom:40px;
+	right:30px;
+	font-size:14px;
+}
+
+.spa-more a {
+	color:#666;
+}
+
+#spa-main ul li {
+	padding:2px;
+	font-size:14px;
+	border-bottom:1px dotted #999;
+	margin:0 20px;
+}
+
+#spa-main ul li a {
+	display:block;
+}
+
+.spa-h2 {
+	font-size:24px;
+	font-family:"黑体";
+	border-bottom:1px solid #666;
+	margin:0 20px;
+}
+
+.spa-top {
+	border-bottom:1px dashed #333;
+	margin-bottom:5px;
+	margin:0 20px;
+}
+
+.spa-top img {
+	float:left;
+	border:1px solid #333;
+	width:95px;
+	height:70px;
+	margin:10px 10px 10px 0;
+}
+
+.spa-top-c {
+	padding:5px 0;
+	color:#666;
+}
